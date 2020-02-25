@@ -9,31 +9,31 @@ function generateMarkdown(data) {
 ${data.projectDescription}
 
 ## Table of Contents
-- [Installation](#Installation)
-- [Usage](#Usage)
-- [Running Tests](#Testing)
-- [Repository Info](#Repository)
-- [Contribution](#Contribution)
-- [License Info](#License)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Running Tests](#testing)
+- [Repository Info](#repository)
+- [Contribution](#contribution)
+- [License Info](#license)
 
 ![${data.projectName}](https://img.shields.io/badge/License-${data.projectLicense}-blue)
 ![${data.projectName}](https://img.shields.io/badge/ReadMeGenerator-${config.version}-green)
-## Installation : 
+## Installation
 <code>${data.runDependencies}</code>
 
-## Usage : 
+## Usage
 <code>${data.projectUsage}</code>
 
-## Testing :
+## Testing
 <code>${data.runTest}</code>
 
-## Repository :
+## Repository
 <code>git clone ${data.projectRepository}</code>
 
-## Contribution :
+## Contribution
 ${data.projectContribution}
 
-## License :
+## License
 ${data.projectLicense}
 
 GH :: ${data.userName} - Email :: ${data.emailAddress}
