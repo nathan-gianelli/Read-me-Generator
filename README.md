@@ -2,34 +2,34 @@
 
 # Read-Me-generator v1.0.0
 
-This a an application that collects user input data and generates a README file based on those inputs
+This is an application that collects user input data and generates a README file based on the users input
 
 ## Table of Contents
-- [Installation](#Installation)
-- [Usage](#Usage)
-- [Running Tests](#Testing)
-- [Repository Info](#Repository)
-- [Contribution](#Contribution)
-- [License Info](#License)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Running Tests](#testing)
+- [Repository Info](#repository)
+- [Contribution](#contribution)
+- [License Info](#license)
 
 ![Read-Me-generator](https://img.shields.io/badge/License-MIT-blue)
 ![Read-Me-generator](https://img.shields.io/badge/ReadMeGenerator-1.0.0-green)
-## Installation : 
+## Installation
 <code>npm i</code>
 
-## Usage : 
+## Usage
 <code>npm run generate</code>
 
-## Testing :
+## Testing
 <code>npm test</code>
 
-## Repository :
+## Repository
 <code>git clone https://github.com/nathan-gianelli/Read-me-Generator.git</code>
 
-## Contribution :
+## Contribution
 Please make pull request to master
 
-## License :
+## License
 MIT
 
 GH :: nathan-gianelli - Email :: nathan.gianelli98@gmail.com
