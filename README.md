@@ -21,6 +21,12 @@ This is an application that collects user input data and generates a README file
 ## Usage
 <code>npm run generate</code>
 
+or
+
+Takes a filename env var if you want a custom name for the file. 
+
+<code>filename=myfile.md npm run generate</code>
+
 ## Testing
 <code>npm test</code>
 
