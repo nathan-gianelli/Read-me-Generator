@@ -11,6 +11,7 @@ This is an application that collects user input data and generates a README file
 - [Repository Info](#repository)
 - [Contribution](#contribution)
 - [License Info](#license)
+- [Questions](#questions)
 
 ![Read-Me-generator](https://img.shields.io/badge/License-MIT-blue)
 ![Read-Me-generator](https://img.shields.io/badge/ReadMeGenerator-1.0.0-green)
@@ -32,6 +33,7 @@ Please make pull request to master
 ## License
 MIT
 
+## Questions
 GH :: nathan-gianelli - Email :: nathan.gianelli98@gmail.com
 
 ![nathan-gianelli Profile Photo](https://github.com/nathan-gianelli.png)

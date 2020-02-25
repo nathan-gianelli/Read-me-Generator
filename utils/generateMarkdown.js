@@ -15,6 +15,7 @@ ${data.projectDescription}
 - [Repository Info](#repository)
 - [Contribution](#contribution)
 - [License Info](#license)
+- [Questions](#questions)
 
 ![${data.projectName}](https://img.shields.io/badge/License-${data.projectLicense}-blue)
 ![${data.projectName}](https://img.shields.io/badge/ReadMeGenerator-${config.version}-green)
@@ -36,6 +37,7 @@ ${data.projectContribution}
 ## License
 ${data.projectLicense}
 
+## Questions
 GH :: ${data.userName} - Email :: ${data.emailAddress}
 
 ![${data.userName} Profile Photo](https://github.com/${data.userName}.png)
