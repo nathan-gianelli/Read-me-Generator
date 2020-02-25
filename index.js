@@ -2,7 +2,7 @@ const inquirer = require('inquirer');
 const generateMarkdown = require("./utils/generateMarkdown.js");
 const fs = require("fs");
 const config = require("./package.json");
-
+const api = require("./utils/api.js");
 
 const questions = [
     {
@@ -75,16 +75,29 @@ function init() {
   inquirer
     .prompt(questions)
     .then(answers => {
+      // Make the call to get the info we want from github. 
+      api.getUser(answers.userName).then(data => {
+        // Debugging the object that comes in. 
+        // console.log("Here is the Data From Github"+data);        
+        
+        // Create new variable that contains the data from github and our question data. 
+        const summary = {...data, ...answers};
+
         // Get our markdown. 
-        var markdown = generateMarkdown(answers);
+        var markdown = generateMarkdown(summary);
+
         // Generate a custom file name or defaults to a README.md file. 
         var filename = process.env.filename || "README.md";
+
         // Write the file. 
         writeToFile(filename, markdown);
+        
         // Debuggin'
         // console.log(markdown);
+      });
     });
 }
+
 
 
 init();
